@@ -1,12 +1,10 @@
+import Navbar from "../components/Navbar";
+
 // frontend\src\pages\HomePage.jsx
-import React from 'react'
-
 const HomePage = () => {
-  return (
-    <div>
-      HomePage
+    return ( <div className="min-h-screen">
+        <Navbar />
     </div>
-  )
-}
-
-export default HomePage
+    );
+};
+export default HomePage;
