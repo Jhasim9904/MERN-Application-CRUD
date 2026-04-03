@@ -1,3 +1,4 @@
+// frontend\src\components\Navbar.jsx
 import { Link } from "react-router";
 import { PlusIcon } from "lucide-react";
 

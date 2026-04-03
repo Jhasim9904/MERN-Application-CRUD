@@ -1,3 +1,4 @@
+// frontend\src\components\RateLimitedUI.jsx
 import { ZapIcon } from "lucide-react";
 
 const RateLimitedUI = () => {
