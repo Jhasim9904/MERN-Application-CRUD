@@ -1,3 +1,4 @@
+// backend\src\middleware\rateLimiter.js
 import ratelimit from "../config/upstash.js";
 
 const rateLimiter = async(req,res,next) => {
@@ -13,7 +14,7 @@ const rateLimiter = async(req,res,next) => {
         next();
     } catch(error){
         console.log("Rate limit error", error);
-        next(error);
+        next();
     }
 
 }
