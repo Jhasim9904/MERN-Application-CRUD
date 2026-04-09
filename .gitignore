@@ -4,3 +4,4 @@ dist
 build
 coverage
 Dockerfile*
+.gitlab-ci.yml
